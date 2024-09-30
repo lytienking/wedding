@@ -39,7 +39,6 @@ img, video {
 
 audio, canvas, embed, iframe, img, object, svg, video {
   display: block;
-  vertical-align: middle;
 }
 
 .css-1c9a4c6{
