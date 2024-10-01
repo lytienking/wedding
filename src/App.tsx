@@ -15,6 +15,7 @@ function App() {
         <div className="horizontalLayout homePage css-yvqk3l">
           <div id="topFrame" className="css-1l9jiy1"></div>
           <div className="css-xdcd7r"></div>
+          {/* banner */}
           <div className="css-1v88te4">
             <div className="css-vehxcf">
               <picture
@@ -77,6 +78,62 @@ function App() {
                 />
               </picture>
             </div>
+          </div>
+          {/* end banner */}
+          <div className="css-13stbb8a">
+            <picture className="css-cgjrm">
+              <source
+                media="(min-resolution: 192dpi) and (min-width: 1280px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px)"
+                srcSet="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_3000.h?ordering=explicit"
+              />
+              <source
+                media="(min-resolution: 192dpi) and (min-width: 1024px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 1024px)"
+                srcSet="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_2560.h?ordering=explicit"
+              />
+              <source
+                media="(min-resolution: 192dpi) and (min-width: 768px),(-webkit-min-device-pixel-ratio: 2) and (min-width: 768px)"
+                srcSet="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_2048.h?ordering=explicit"
+              />
+              <source
+                media="(min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2)"
+                srcSet="https://media-api.xogrp.com/images/ac7929b4-d9e9-43db-9ff1-7a6050823dd8~rt_auto-rs_1536.h?ordering=explicit"
+              />
+              <source
+                media="(min-resolution: 144dpi) and (min-width: 1280px),(-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1280px)"
+                srcSet="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_2250.h?ordering=explicit"
+              />
+              <source
+                media="(min-resolution: 144dpi) and (min-width: 1024px),(-webkit-min-device-pixel-ratio: 1.5) and (min-width: 1024px)"
+                srcSet="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_1920.h?ordering=explicit"
+              />
+              <source
+                media="(min-resolution: 144dpi) and (min-width: 768px),(-webkit-min-device-pixel-ratio: 1.5) and (min-width: 768px)"
+                srcSet="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_1536.h?ordering=explicit"
+              />
+              <source
+                media="(min-resolution: 144dpi), (-webkit-min-device-pixel-ratio: 1.5)"
+                srcSet="https://media-api.xogrp.com/images/ac7929b4-d9e9-43db-9ff1-7a6050823dd8~rt_auto-rs_1152.h?ordering=explicit"
+              />
+              <source
+                media="(min-width: 1280px)"
+                srcSet="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_1500.h?ordering=explicit"
+              />
+              <source
+                media="(min-width: 1024px)"
+                srcSet="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_1280.h?ordering=explicit"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcSet="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_1024.h?ordering=explicit"
+              />
+              <source srcSet="https://media-api.xogrp.com/images/ac7929b4-d9e9-43db-9ff1-7a6050823dd8~rt_auto-rs_768.h?ordering=explicit" />
+              <img
+                loading="eager"
+                alt=""
+                src="https://media-api.xogrp.com/images/4795fd95-d48a-45fa-a723-73a44598c6cb~rt_auto-rs_1024.h?ordering=explicit"
+                className="css-1ago99h"
+              />
+            </picture>
           </div>
           <header className="css-wl7yfi">
             <h1 data-testid="header-couple-names" className="css-13wdktx">
@@ -212,19 +269,19 @@ function App() {
                 </li>
                 <li className="css-haue6f">
                   <a className="css-1a3pbfb" href="/">
-                    <span className="css-1lra6hy">Our Story</span>
+                    <span className="css-1lra6hy">Photos</span>
                   </a>
                 </li>
               </ul>
               <ul data-testid="desktop-nav-row-2" className="css-16kcklx">
                 <li className="css-haue6f">
                   <a className="css-1a3pbfb" href="/">
-                    <span className="css-1lra6hy">Photos</span>
+                    <span className="css-1lra6hy">Wedding venue</span>
                   </a>
                 </li>
                 <li className="css-haue6f">
                   <a className="css-1a3pbfb" href="/">
-                    <span className="css-1lra6hy">Wedding party</span>
+                    <span className="css-1lra6hy">Write best wishes</span>
                   </a>
                 </li>
               </ul>
@@ -298,6 +355,12 @@ function App() {
             </div>
           </div>
           {/* end other page */}
+          <footer className="css-rzmzie">
+            <div className="css-10xb0p9">
+              <div className="css-mht0k6">T&amp;T</div>
+              <div className="css-1s1kjxi">1.3.2025</div>
+            </div>
+          </footer>
         </div>
       </div>
     </div>
