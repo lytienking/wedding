@@ -1,5 +1,4 @@
 import { ReactNode, useState } from "react";
-import "../App.css";
 
 interface AppProps {
   children: ReactNode;
@@ -246,18 +245,18 @@ const Layout: React.FC<AppProps> = ({ children }) => {
                   </a>
                 </li>
                 <li className="css-1yvae2t">
-                  <a className="css-1xhaooh" href="/">
-                    <span className="css-4atgre">Our story</span>
-                  </a>
-                </li>
-                <li className="css-1yvae2t">
-                  <a className="css-1xhaooh" href="/">
+                  <a className="css-1xhaooh" href="/photo">
                     <span className="css-4atgre">Photos</span>
                   </a>
                 </li>
                 <li className="css-1yvae2t">
                   <a className="css-1xhaooh" href="/">
-                    <span className="css-4atgre">Wedding Party</span>
+                    <span className="css-4atgre">Wedding venue</span>
+                  </a>
+                </li>
+                <li className="css-1yvae2t">
+                  <a className="css-1xhaooh" href="/">
+                    <span className="css-4atgre">Write best wishes</span>
                   </a>
                 </li>
               </ul>
@@ -272,7 +271,7 @@ const Layout: React.FC<AppProps> = ({ children }) => {
                   </a>
                 </li>
                 <li className="css-haue6f">
-                  <a className="css-1a3pbfb" href="/">
+                  <a className="css-1a3pbfb" href="/photo">
                     <span className="css-1lra6hy">Photos</span>
                   </a>
                 </li>

@@ -30,13 +30,16 @@ a {
 img, picture {
   display: block;
   height: auto;
+  max-height: 100%;
   max-width: 100%;
   width: auto;
 }
 
 img, video {
   max-width: 100%;
+  max-height: 100%;
   height: auto;
+  width: auto;
 }
 
 audio, canvas, embed, iframe, img, object, svg, video {
@@ -597,6 +600,54 @@ audio, canvas, embed, iframe, img, object, svg, video {
   text-transform: uppercase;
   line-height: 22px;
   border-top: 1px solid #6B7B28;
+}
+
+.photos-page{
+  display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 8px 16px;
+    .image-item{
+      padding: 10px;
+      width: 512px;
+      height: 384px;
+      span{
+        width: 100%;
+        height: 100%;
+        img{
+          width: 100% ;
+          height: 100% ;
+        }
+      }
+    }
+}
+
+
+@media (max-width: 768px) {
+  .photos-page{
+    .image-item{
+      width: auto;
+      height: auto;
+      span{
+        width: auto;
+        height: auto;
+        img{
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
